@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<title> Music Playground</title>
+</head>
+
+<body>
+	<nav class="navstyle">
+		<ul class="ulnobullet">
+			<li><a href="#">View Music |</a></li>
+			<li><a href="#">Add Music |</a></li>
+			<li><a href="#">Profile</a></li>
+		</ul>
+	</nav>
+	<section class="left">
+		<label for="song_length"> Song length:</label> 
+		<br>
+		<input type="range" name="song_length" min="0:00" max="5:00"step="0:01">
+		<br>
+		<label for="artist_type">Artist:</label>
+		<br>
+    	<select id="artist_type" name="artisttype">
+     		<option>Aerosmith</option>
+    		<option>Beyonce</option>
+      		<option>Cake</option>
+      		<option>Dave Matthews</option>
+    		<option>Eagles</option>
+    	</select>	
+      	<br>	
+		<label for="album_type">Album:</label>
+		<br>
+		<select id="album_type" name="albumtype">
+     		<option>Nine Lives</option>
+    		<option>Dangerously in Love</option>
+      		<option>Showroom of Compassion</option>
+      		<option>Crash</option>
+    		<option>Hotel california</option>
+    	</select>
+
+		<br>
+
+		<label>Genre:</label>
+       		<input type="checkbox" name="rock" value="rock-song"> Rock
+           	<input type="checkbox" name="classical" value="classical-music"> Classic
+           	<input type="checkbox" name="pop" value="pop-music"> Pop
+           	<input type="checkbox" name="jazz" value="jazz-music"> Jazz
+           	<input type="checkbox" name="blues" value="blues-music"> Blues
+            <input type="checkbox" name="hiphop" value="hiphop-music"> Hip-Hop
+        			 
+
+	</section>
+	<section class="right">
+		<h2>Song Name</h2>
+		<h4>Artist Name | Album Name | Genre </h4>
+		<h2>Song Name</h2>
+		<h4>Artist Name | Album Name | Genre </h4>
+		<h2>Song Name</h2>
+		<h4>Artist Name | Album Name | Genre </h4>
+		<h2>Song Name</h2>
+		<h4>Artist Name | Album Name | Genre </h4>
+	</section>
+
+</body>	
